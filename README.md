@@ -35,8 +35,6 @@ npm install
 2. Set up the database:
    - Create a `.env` file in the root directory:
      ```
-     DATABASE_URL="mongodb+srv://imalishahzadk:imalihamzak@cluster0.yxiquws.mongodb.net/pm"
-     ```
    - Generate Prisma Client and push schema to MongoDB:
      ```bash
      npx prisma generate
